@@ -1,0 +1,15 @@
+[
+	{
+	"name":"Migrant"
+	"unitType":"Civilian"
+	"movement":2
+	"cost":30
+	"uniques":["[-1] population [in this city]", "[+1] population [in this city] <by consuming this unit>", "Only available <in cities with at least [3] [Population]>"]
+	}
+	{
+	"name":"Tourist"
+	"unitType":"Civilian"
+	"movement":2
+	"uniques":["[+1] population [in this city] <by consuming this unit>", "Unbuildable"]
+	}
+]

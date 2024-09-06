@@ -1,0 +1,50 @@
+[
+	{
+	"name":"Bonus"
+	"text":"Pick bonus"
+	"choices":[
+	{
+	"text":"Gold"
+	"triggeredUniques":["Gain [100] [Gold]"]
+	}
+	{
+	"text":"Religion Up"
+	"triggeredUniques":["Gain [20] [Faith]"]
+	}
+	{
+	"text":"Culture Bust"
+	"triggeredUniques":["Gain [25] [Culture]"]
+	}
+	{
+	"text":"Happy Nation"
+	"triggeredUniques":["[+3 Happiness] [in capital]"]
+	}
+	{
+	"text":"Start [Granary]"
+	"triggeredUniques":["Gain a free [Granary] [in capital]"]
+	}
+		]
+	}
+	{
+		"name":"gen"
+		"text":"Select of general"
+		"choices":[
+			{
+				"text":"Learned"
+				"triggeredUniques":["Free Technology"]
+			}
+			{
+				"text":"Cultural"
+				"triggeredUniques":["Free Social Policy"]
+			}
+			{
+				"text":"Robber"
+				"triggeredUniques":["Receive triple Gold from Barbarian encampments and pillaging Cities <for [Melee] units>"]
+			}
+			{
+				"text":"Parliament"
+				"triggeredUniques":["Gain a free [Parliament] [in capital]"]
+			}
+		]
+	}
+]

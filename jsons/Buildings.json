@@ -1,0 +1,114 @@
+[
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 3,
+		"science": 3,
+		"gold": 3,
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["Indicates the capital city", "Triggers a [Bonus] event"]
+	},
+	{
+		"name":"Parliament"
+		"isNationalWonder":true
+		"uniques":["Unbuildable", "[+1 Happiness] [in all cities]", "[+5]% growth [in all cities]"]
+	}
+	{
+		"name": "Temple of Artemis",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Archery] units [in all cities]",
+            "[+15]% Production when constructing [Ranged Gunpowder] units [in all cities]"],
+		"requiredTech": "Archery",
+		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+	},
+	{
+		"name": "Statue of Liberty",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+1 Production] from every specialist [in all cities]", "Free [Tourist] appears"],
+		"requiredTech": "Replaceable Parts",
+		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
+	},
+	{
+		"name": "Neuschwanstein",
+		"happiness": 2,
+		"culture": 4,
+		"gold": 6,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]", "Free [Tourist] appears",
+			"Must have an owned [Mountain] within [2] tiles"],
+		"requiredTech": "Railroads",
+		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+	},
+	{
+		"name": "Cristo Redentor",
+		"culture": 5,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[-10]% Culture cost of adopting new Policies", "[2] free [Tourist] units appear"],
+		"requiredTech": "Plastics",
+		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
+	},
+	{
+		"name": "Sydney Opera House",
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"percentStatBonus": {"culture": 50},
+		"uniques": ["Free Social Policy","Must be next to [Coast]", "[2] free [Tourist] units appear"],
+		"requiredTech": "Ecology",
+		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
+	},
+	{
+		"name": "CN Tower",
+		"isWonder": true,
+		"culture": 1,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]", "[1] free [Tourist] units appear"],
+		"requiredTech": "Telecommunications",
+		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+	},
+	{
+		"name": "Eiffel Tower",
+		"culture": 1,
+		"happiness": 5,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[+1 Happiness] per [2] social policies adopted", "[3] free [Tourist] units appear"],
+		"requiredTech": "Radio",
+		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+	},
+	{
+		"name": "Big Ben",
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%", "Free [Tourist] appears"],
+		"requiredTech": "Industrialization",
+		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+	},
+	{
+		"name": "The Louvre",
+		"culture": 1,
+		"happiness": 4,
+		"isWonder": true,
+		"uniques": ["[2] free [Great Artist] units appear", "Free [Tourist] appears"],
+		"requiredTech": "Archaeology",
+		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city", "Triggers a [gen] event"],
+		"requiredTech": "Iron Working"
+	},
+]
