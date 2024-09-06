@@ -1,0 +1,33 @@
+game.png
+size: 800, 640
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Tourist
+  rotate: false
+  xy: 0, 32
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+UnitIcons/Migrant
+  rotate: false
+  xy: 0, 96
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Tourist
+  rotate: false
+  xy: 18, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Units/Migrant
+  rotate: false
+  xy: 50, 6
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
